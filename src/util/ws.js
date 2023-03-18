@@ -56,4 +56,4 @@ export default ((wsUrlr) => {
 
 
     return { ws, emit, sendMessage }
-})('https://messaging-app-server.vercel.app')
+})('ws://localhost:5000/')
